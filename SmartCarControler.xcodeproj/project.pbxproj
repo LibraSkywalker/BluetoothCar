@@ -1,0 +1,535 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A958A60E1DADF0D30079F784 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A958A60D1DADF0D30079F784 /* AppDelegate.swift */; };
+		A958A6101DADF0D30079F784 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A958A60F1DADF0D30079F784 /* ViewController.swift */; };
+		A958A6131DADF0D30079F784 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A958A6111DADF0D30079F784 /* Main.storyboard */; };
+		A958A6151DADF0D30079F784 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A958A6141DADF0D30079F784 /* Assets.xcassets */; };
+		A958A6181DADF0D30079F784 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A958A6161DADF0D30079F784 /* LaunchScreen.storyboard */; };
+		A958A6231DADF0D30079F784 /* SmartCarControlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A958A6221DADF0D30079F784 /* SmartCarControlerTests.swift */; };
+		A958A62E1DADF0D30079F784 /* SmartCarControlerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A958A62D1DADF0D30079F784 /* SmartCarControlerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A958A61F1DADF0D30079F784 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A958A6021DADF0D30079F784 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A958A6091DADF0D30079F784;
+			remoteInfo = SmartCarControler;
+		};
+		A958A62A1DADF0D30079F784 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A958A6021DADF0D30079F784 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A958A6091DADF0D30079F784;
+			remoteInfo = SmartCarControler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A958A60A1DADF0D30079F784 /* SmartCarControler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartCarControler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A958A60D1DADF0D30079F784 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A958A60F1DADF0D30079F784 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A958A6121DADF0D30079F784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A958A6141DADF0D30079F784 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A958A6171DADF0D30079F784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A958A6191DADF0D30079F784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A958A61E1DADF0D30079F784 /* SmartCarControlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartCarControlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A958A6221DADF0D30079F784 /* SmartCarControlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartCarControlerTests.swift; sourceTree = "<group>"; };
+		A958A6241DADF0D30079F784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A958A6291DADF0D30079F784 /* SmartCarControlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartCarControlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A958A62D1DADF0D30079F784 /* SmartCarControlerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartCarControlerUITests.swift; sourceTree = "<group>"; };
+		A958A62F1DADF0D30079F784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A958A6071DADF0D30079F784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A958A61B1DADF0D30079F784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A958A6261DADF0D30079F784 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A958A6011DADF0D30079F784 = {
+			isa = PBXGroup;
+			children = (
+				A958A60C1DADF0D30079F784 /* SmartCarControler */,
+				A958A6211DADF0D30079F784 /* SmartCarControlerTests */,
+				A958A62C1DADF0D30079F784 /* SmartCarControlerUITests */,
+				A958A60B1DADF0D30079F784 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A958A60B1DADF0D30079F784 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A958A60A1DADF0D30079F784 /* SmartCarControler.app */,
+				A958A61E1DADF0D30079F784 /* SmartCarControlerTests.xctest */,
+				A958A6291DADF0D30079F784 /* SmartCarControlerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A958A60C1DADF0D30079F784 /* SmartCarControler */ = {
+			isa = PBXGroup;
+			children = (
+				A958A60D1DADF0D30079F784 /* AppDelegate.swift */,
+				A958A60F1DADF0D30079F784 /* ViewController.swift */,
+				A958A6111DADF0D30079F784 /* Main.storyboard */,
+				A958A6141DADF0D30079F784 /* Assets.xcassets */,
+				A958A6161DADF0D30079F784 /* LaunchScreen.storyboard */,
+				A958A6191DADF0D30079F784 /* Info.plist */,
+			);
+			path = SmartCarControler;
+			sourceTree = "<group>";
+		};
+		A958A6211DADF0D30079F784 /* SmartCarControlerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A958A6221DADF0D30079F784 /* SmartCarControlerTests.swift */,
+				A958A6241DADF0D30079F784 /* Info.plist */,
+			);
+			path = SmartCarControlerTests;
+			sourceTree = "<group>";
+		};
+		A958A62C1DADF0D30079F784 /* SmartCarControlerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A958A62D1DADF0D30079F784 /* SmartCarControlerUITests.swift */,
+				A958A62F1DADF0D30079F784 /* Info.plist */,
+			);
+			path = SmartCarControlerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A958A6091DADF0D30079F784 /* SmartCarControler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A958A6321DADF0D30079F784 /* Build configuration list for PBXNativeTarget "SmartCarControler" */;
+			buildPhases = (
+				A958A6061DADF0D30079F784 /* Sources */,
+				A958A6071DADF0D30079F784 /* Frameworks */,
+				A958A6081DADF0D30079F784 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartCarControler;
+			productName = SmartCarControler;
+			productReference = A958A60A1DADF0D30079F784 /* SmartCarControler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A958A61D1DADF0D30079F784 /* SmartCarControlerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A958A6351DADF0D30079F784 /* Build configuration list for PBXNativeTarget "SmartCarControlerTests" */;
+			buildPhases = (
+				A958A61A1DADF0D30079F784 /* Sources */,
+				A958A61B1DADF0D30079F784 /* Frameworks */,
+				A958A61C1DADF0D30079F784 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A958A6201DADF0D30079F784 /* PBXTargetDependency */,
+			);
+			name = SmartCarControlerTests;
+			productName = SmartCarControlerTests;
+			productReference = A958A61E1DADF0D30079F784 /* SmartCarControlerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A958A6281DADF0D30079F784 /* SmartCarControlerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A958A6381DADF0D30079F784 /* Build configuration list for PBXNativeTarget "SmartCarControlerUITests" */;
+			buildPhases = (
+				A958A6251DADF0D30079F784 /* Sources */,
+				A958A6261DADF0D30079F784 /* Frameworks */,
+				A958A6271DADF0D30079F784 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A958A62B1DADF0D30079F784 /* PBXTargetDependency */,
+			);
+			name = SmartCarControlerUITests;
+			productName = SmartCarControlerUITests;
+			productReference = A958A6291DADF0D30079F784 /* SmartCarControlerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A958A6021DADF0D30079F784 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Bill;
+				TargetAttributes = {
+					A958A6091DADF0D30079F784 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = F32XJD7A3D;
+						ProvisioningStyle = Automatic;
+					};
+					A958A61D1DADF0D30079F784 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = F32XJD7A3D;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A958A6091DADF0D30079F784;
+					};
+					A958A6281DADF0D30079F784 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = F32XJD7A3D;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A958A6091DADF0D30079F784;
+					};
+				};
+			};
+			buildConfigurationList = A958A6051DADF0D30079F784 /* Build configuration list for PBXProject "SmartCarControler" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A958A6011DADF0D30079F784;
+			productRefGroup = A958A60B1DADF0D30079F784 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A958A6091DADF0D30079F784 /* SmartCarControler */,
+				A958A61D1DADF0D30079F784 /* SmartCarControlerTests */,
+				A958A6281DADF0D30079F784 /* SmartCarControlerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A958A6081DADF0D30079F784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A958A6181DADF0D30079F784 /* LaunchScreen.storyboard in Resources */,
+				A958A6151DADF0D30079F784 /* Assets.xcassets in Resources */,
+				A958A6131DADF0D30079F784 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A958A61C1DADF0D30079F784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A958A6271DADF0D30079F784 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A958A6061DADF0D30079F784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A958A6101DADF0D30079F784 /* ViewController.swift in Sources */,
+				A958A60E1DADF0D30079F784 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A958A61A1DADF0D30079F784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A958A6231DADF0D30079F784 /* SmartCarControlerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A958A6251DADF0D30079F784 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A958A62E1DADF0D30079F784 /* SmartCarControlerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A958A6201DADF0D30079F784 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A958A6091DADF0D30079F784 /* SmartCarControler */;
+			targetProxy = A958A61F1DADF0D30079F784 /* PBXContainerItemProxy */;
+		};
+		A958A62B1DADF0D30079F784 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A958A6091DADF0D30079F784 /* SmartCarControler */;
+			targetProxy = A958A62A1DADF0D30079F784 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A958A6111DADF0D30079F784 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A958A6121DADF0D30079F784 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A958A6161DADF0D30079F784 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A958A6171DADF0D30079F784 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A958A6301DADF0D30079F784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A958A6311DADF0D30079F784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A958A6331DADF0D30079F784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F32XJD7A3D;
+				INFOPLIST_FILE = SmartCarControler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iosDevelop.SmartCarControler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A958A6341DADF0D30079F784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F32XJD7A3D;
+				INFOPLIST_FILE = SmartCarControler/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iosDevelop.SmartCarControler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A958A6361DADF0D30079F784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F32XJD7A3D;
+				INFOPLIST_FILE = SmartCarControlerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iosDevelop.SmartCarControlerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartCarControler.app/SmartCarControler";
+			};
+			name = Debug;
+		};
+		A958A6371DADF0D30079F784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = F32XJD7A3D;
+				INFOPLIST_FILE = SmartCarControlerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iosDevelop.SmartCarControlerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartCarControler.app/SmartCarControler";
+			};
+			name = Release;
+		};
+		A958A6391DADF0D30079F784 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = F32XJD7A3D;
+				INFOPLIST_FILE = SmartCarControlerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iosDevelop.SmartCarControlerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SmartCarControler;
+			};
+			name = Debug;
+		};
+		A958A63A1DADF0D30079F784 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = F32XJD7A3D;
+				INFOPLIST_FILE = SmartCarControlerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iosDevelop.SmartCarControlerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SmartCarControler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A958A6051DADF0D30079F784 /* Build configuration list for PBXProject "SmartCarControler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A958A6301DADF0D30079F784 /* Debug */,
+				A958A6311DADF0D30079F784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A958A6321DADF0D30079F784 /* Build configuration list for PBXNativeTarget "SmartCarControler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A958A6331DADF0D30079F784 /* Debug */,
+				A958A6341DADF0D30079F784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A958A6351DADF0D30079F784 /* Build configuration list for PBXNativeTarget "SmartCarControlerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A958A6361DADF0D30079F784 /* Debug */,
+				A958A6371DADF0D30079F784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A958A6381DADF0D30079F784 /* Build configuration list for PBXNativeTarget "SmartCarControlerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A958A6391DADF0D30079F784 /* Debug */,
+				A958A63A1DADF0D30079F784 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A958A6021DADF0D30079F784 /* Project object */;
+}
