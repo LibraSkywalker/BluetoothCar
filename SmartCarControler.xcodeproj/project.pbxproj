@@ -10,10 +10,12 @@
 		A958A60E1DADF0D30079F784 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A958A60D1DADF0D30079F784 /* AppDelegate.swift */; };
 		A958A6101DADF0D30079F784 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A958A60F1DADF0D30079F784 /* ViewController.swift */; };
 		A958A6131DADF0D30079F784 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A958A6111DADF0D30079F784 /* Main.storyboard */; };
-		A958A6151DADF0D30079F784 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A958A6141DADF0D30079F784 /* Assets.xcassets */; };
-		A958A6181DADF0D30079F784 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A958A6161DADF0D30079F784 /* LaunchScreen.storyboard */; };
 		A958A6231DADF0D30079F784 /* SmartCarControlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A958A6221DADF0D30079F784 /* SmartCarControlerTests.swift */; };
 		A958A62E1DADF0D30079F784 /* SmartCarControlerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A958A62D1DADF0D30079F784 /* SmartCarControlerUITests.swift */; };
+		A95C8E771DBA626700807B88 /* launchscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = A95C8E761DBA626700807B88 /* launchscreen.png */; };
+		A95C8E7B1DBA65A300807B88 /* 20140909101139742.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A95C8E7A1DBA65A300807B88 /* 20140909101139742.jpg */; };
+		A95C8E7D1DBA67B400807B88 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A95C8E7C1DBA67B400807B88 /* Images.xcassets */; };
+		A95C8E7F1DBA68B700807B88 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A95C8E7E1DBA68B700807B88 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +40,6 @@
 		A958A60D1DADF0D30079F784 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A958A60F1DADF0D30079F784 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A958A6121DADF0D30079F784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A958A6141DADF0D30079F784 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A958A6171DADF0D30079F784 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A958A6191DADF0D30079F784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A958A61E1DADF0D30079F784 /* SmartCarControlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartCarControlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A958A6221DADF0D30079F784 /* SmartCarControlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartCarControlerTests.swift; sourceTree = "<group>"; };
@@ -47,6 +47,10 @@
 		A958A6291DADF0D30079F784 /* SmartCarControlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartCarControlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A958A62D1DADF0D30079F784 /* SmartCarControlerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartCarControlerUITests.swift; sourceTree = "<group>"; };
 		A958A62F1DADF0D30079F784 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A95C8E761DBA626700807B88 /* launchscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchscreen.png; sourceTree = "<group>"; };
+		A95C8E7A1DBA65A300807B88 /* 20140909101139742.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 20140909101139742.jpg; sourceTree = "<group>"; };
+		A95C8E7C1DBA67B400807B88 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A95C8E7E1DBA68B700807B88 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +101,14 @@
 		A958A60C1DADF0D30079F784 /* SmartCarControler */ = {
 			isa = PBXGroup;
 			children = (
+				A95C8E761DBA626700807B88 /* launchscreen.png */,
 				A958A60D1DADF0D30079F784 /* AppDelegate.swift */,
 				A958A60F1DADF0D30079F784 /* ViewController.swift */,
 				A958A6111DADF0D30079F784 /* Main.storyboard */,
-				A958A6141DADF0D30079F784 /* Assets.xcassets */,
-				A958A6161DADF0D30079F784 /* LaunchScreen.storyboard */,
 				A958A6191DADF0D30079F784 /* Info.plist */,
+				A95C8E7C1DBA67B400807B88 /* Images.xcassets */,
+				A95C8E7A1DBA65A300807B88 /* 20140909101139742.jpg */,
+				A95C8E7E1DBA68B700807B88 /* Launch Screen.storyboard */,
 			);
 			path = SmartCarControler;
 			sourceTree = "<group>";
@@ -235,9 +241,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A958A6181DADF0D30079F784 /* LaunchScreen.storyboard in Resources */,
-				A958A6151DADF0D30079F784 /* Assets.xcassets in Resources */,
+				A95C8E7D1DBA67B400807B88 /* Images.xcassets in Resources */,
+				A95C8E7B1DBA65A300807B88 /* 20140909101139742.jpg in Resources */,
 				A958A6131DADF0D30079F784 /* Main.storyboard in Resources */,
+				A95C8E7F1DBA68B700807B88 /* Launch Screen.storyboard in Resources */,
+				A95C8E771DBA626700807B88 /* launchscreen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,14 +313,6 @@
 				A958A6121DADF0D30079F784 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A958A6161DADF0D30079F784 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A958A6171DADF0D30079F784 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -412,26 +412,26 @@
 		A958A6331DADF0D30079F784 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = F32XJD7A3D;
 				INFOPLIST_FILE = SmartCarControler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iosDevelop.SmartCarControler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A958A6341DADF0D30079F784 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = F32XJD7A3D;
 				INFOPLIST_FILE = SmartCarControler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = iosDevelop.SmartCarControler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -512,6 +512,7 @@
 				A958A6341DADF0D30079F784 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A958A6351DADF0D30079F784 /* Build configuration list for PBXNativeTarget "SmartCarControlerTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +521,7 @@
 				A958A6371DADF0D30079F784 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A958A6381DADF0D30079F784 /* Build configuration list for PBXNativeTarget "SmartCarControlerUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +530,7 @@
 				A958A63A1DADF0D30079F784 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
